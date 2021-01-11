@@ -13,13 +13,13 @@
 
     <fragment
         android:id="@+id/nav_liste_produit"
-        android:name="com.example.myapplication.ui.gallery.ListeProduit"
+        android:name="com.example.myapplication.ui.listeProduit.ListeProduit"
         android:label="@string/menu_liste_produit"
         tools:layout="@layout/fragment_liste_produit" />
 
     <fragment
         android:id="@+id/nav_ajout_produit"
-        android:name="com.example.myapplication.ui.slideshow.AjoutProduit"
+        android:name="com.example.myapplication.ui.ajoutProduit.AjoutProduit"
         android:label="@string/menu_ajout_produit"
         tools:layout="@layout/fragment_ajout_produit" />
 </navigation>
